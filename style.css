@@ -1,23 +1,22 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Source Sans Pro;
+    
 
     h2{
-        font-size: 16px;
-        font-weight: 400;
         font-size: 12px;
+        font-family: Open;
     }
     h3{
-        font-size: 12px;
+        font-size: 6px;
     }
 
     p{
-        font-size: 11px;
+        font-size: 6px;
     }
 
     a{
-        font-size: 11px
+        font-size: 6px
     }
     
 }
@@ -42,12 +41,14 @@ body{
     
     header{
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-
+        width: 100%;
 
         .pu{
             width: 50%;
+            height: 100%;
         }
         .partiedroitehead{
             height: 100%;
@@ -98,6 +99,7 @@ body{
             justify-content: center;
             gap: 4px;
             width: 20%;
+            padding: 5px;
         }
         .recherche {
             border: solid 1px #3B5998;
@@ -136,8 +138,7 @@ body{
         }
 
         .pubb {
-            width: 50px;
-            height: 50px;
+            width: 50%;
             border: solid 1px #3B5998;
             border-style: dashed;
             object-fit: cover;
@@ -149,7 +150,7 @@ body{
             align-items: start;
             justify-content: start;
             width: 80%;
-            padding: 12px 8px 0px 8px;
+            border: solid 1px #3B5998;
 
             .aaai {
                 display: flex;
@@ -157,7 +158,7 @@ body{
                 align-items: center;
                 justify-content: space-between;
                 background-color: #3B5998;
-                width: 100%;
+                width: 99.6%;
                 color: white;
                 padding: 2px;
             }
@@ -165,10 +166,10 @@ body{
             .aab {
                 display: flex;
                 flex-direction: row;
-                align-items: start;
-                justify-content: space-around;
+                align-items: center;
+                justify-content: center;
+                gap: 4px;
                 border: solid 1px #3B5998;
-                
 
                 .aac {
                     display: flex;
@@ -176,7 +177,7 @@ body{
                     align-items: center;
                     justify-content: center;
                     gap: 10px;
-                    width: 50%;
+                    width: max-content;
                     
                     .moi {
                         display: flex;
@@ -184,7 +185,7 @@ body{
                         align-items: start;
                         justify-content: space-between;
                         border: solid 1px #3B5998;
-                        width: 100%;
+                        width: 95%;
                     }
 
                     .deuxa {
@@ -193,7 +194,7 @@ body{
                         align-items: start;
                         justify-content: space-between;
                         border: solid 1px #3B5998;
-                        width: 100%;
+                        width: 95%;
 
                         .lol {
                             width: 100%;
@@ -215,7 +216,7 @@ body{
                         align-items: center;
                         justify-content: space-between;
                         border: solid 1px #3B5998;
-                        width: 100%;
+                        width: 95%;
                     }
 
                     .mf {
@@ -224,7 +225,7 @@ body{
                         align-items: center;
                         justify-content: space-between;
                         border: solid 1px #3B5998;
-                        width: 100%;
+                        width: 95%;
                     }
 
                     .acces {
@@ -233,7 +234,7 @@ body{
                         align-items: center;
                         justify-content: space-between;
                         border: solid 1px #3B5998;
-                        width: 100%;
+                        width: 95%;
                     }
 
                     .ami {
@@ -242,7 +243,7 @@ body{
                         align-items: center;
                         justify-content: space-between;
                         border: solid 1px #3B5998;
-                        width: 100%;
+                        width: 95%;
 
                         .uni1 {
                         display: flex;
@@ -270,6 +271,7 @@ body{
                     align-items: start;
                     justify-content: start;
                     border: solid 1px #3B5998;
+                    width: 50%;
 
                     a:hover {
                         text-decoration: underline;
@@ -298,6 +300,29 @@ body{
                                 width: 50%;
                             }
                         }
+                    }
+                }
+            }
+            .enbas{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .last{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 4px;
+
+                    a{
+                        text-decoration: none;
+                        color: #538ADC;
+                    }
+                    a:hover {
+                        text-decoration: underline;
                     }
                 }
             }
